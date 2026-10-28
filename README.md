@@ -35,23 +35,3 @@ Everything AIRich could do before — `addText`, `addImage`, `addPost`, `addProd
 `addFooterAction`, `Button`, `ButtonV2`, `Carousel`, `Toolkit.resize/fetchBuffer/stringifyEscaped`, embedded
 HTML screens, and so on — works exactly as before. The code is unchanged; only how it's packaged is new.
 
-## Console banner
-
-The first time `makeWASocket()` runs in a process, LOFT BAILEY prints a short branded banner (name, version,
-Node version, AIRich status) to the console — handy on a panel like Pterodactyl, where that's the first thing
-an operator sees. It only prints once, even if your app opens many sockets (sub-bots) in the same process.
-
-Turn it off per call:
-
-```js
-makeWASocket({ loftBanner: false, /* ... */ });
-```
-
-or for the whole process:
-
-```bash
-LOFT_BAILEY_BANNER=false node index.js
-```
-
-Colors are skipped automatically when stdout isn't a real terminal (e.g. piped into a log file), so logs stay
-clean.
