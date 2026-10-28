@@ -1,6 +1,6 @@
 {
    "name": "@loftxmd/loft-bailey",
-   "version": "1.0.2",
+   "version": "1.0.1",
    "description": "LOFT BAILEY \u2014 Enhanced Baileys v7 with the AIRich rich-response toolkit built in, newsletter media fixes, interactive messages, albums, extra message types, and a branded console banner.",
    "main": "lib/index.js",
    "types": "lib/index.d.ts",
