@@ -1,5 +1,5 @@
 {
-   "name": "loft-bailey",
+   "name": "@loftxmd/loft-bailey",
    "version": "1.0.0",
    "description": "LOFT BAILEY \u2014 Enhanced Baileys v7 with the AIRich rich-response toolkit built in, newsletter media fixes, interactive messages, albums, extra message types, and a branded console banner.",
    "main": "lib/index.js",
@@ -35,8 +35,8 @@
       "loft-bailey",
       "rich-response"
    ],
-   "homepage": "https://github.com/xmdloft23/baileys#readme",
-   "author": "Lia Wynn",
+   "homepage": "https://github.com/xmdloft23/loft-bailey#readme",
+   "author": "Mr Loft",
    "license": "MIT",
    "dependencies": {
       "@adiwajshing/keyed-db": "^0.2.4",
@@ -111,5 +111,8 @@
       "underscore": "^1.13.8",
       "yaml@npm:^2.6.1": "^2.8.4"
    },
-   "packageManager": "yarn@4.9.2"
+   "packageManager": "yarn@4.9.2",
+   "publishConfig": {
+      "access": "public"
+   }
 }
